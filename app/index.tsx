@@ -1,5 +1,6 @@
-import { Text } from 'react-native';
+import { Image } from 'react-native';
 
 export default function HomeScreen() {
-  return <Text>Hello Expo!</Text>;
+  // eslint-disable-next-line
+  return <Image source={require('../assets/images/icon.png')} />;
 }
